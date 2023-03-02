@@ -1,0 +1,5 @@
+follow the visual studio link: https://code.visualstudio.com/docs/cpp/config-mingw and do step 1-3.
+go to the msys link https://www.msys2.org/ and do step 1-6. 
+   when asked for Proceed with installation? [Y/n], enter Y. Don't do step 7.
+go back to visual studio link. Open command window to install the Mingw-w64 toolchain: pacman -S --needed base-devel mingw-w64-x86_64-toolchain. Don't do the second part of the step 5.
+do the step 6 and following then check.
